@@ -1,0 +1,14 @@
+#Development Notes:
+#Plugin Created on 11/6/20 for Dragon Raiders
+#Developer: MuchDan
+
+#TODO:
+    #To be decided
+
+Change Log: 11/6/20
+    - Project Created and implemented for 1.15.2
+
+#General notes:
+    - This plugin has 3 commands /setMultiplier [Username] [Multiplier]; /removeMultiplier [Username]; /MultiplierReload
+    - These commands add multiplier to player, remove from player and reload the config files respectively.
+    - It is assumed that all purchasing will be handled through a different plugin.
