@@ -1,0 +1,33 @@
+#Vanilla Exp Multipler
+#Made by MuchDan
+#11/6/20
+#For Detailed information, View decompiled Notes text file.
+
+
+#Begin Configuration File
+Verbose: false  #Prints the multiplier, original value, and rounded value to console when exp is gained.
+
+MenuName: Menu #This is the name at the top of the Deluxe Menu. Must be exact
+
+#Permission node to set player multipliers.
+Permission: Admin.SetMultiplier
+
+#message sent to user on /xpmultiplier
+xpmult_msg: "&bYou currently have a %vem_expmult%x Exp Multiplier"
+
+#When unauthorized player gets denied.
+DenyMessage: "&cYou don't have permission to do that!"
+
+#Player Message when Multiplier is applied
+Applied-Message: "&b<Multiplier>x Multiplier has been successfully applied!"
+
+#Multipliers can be named anything, these are referenced in command /setMultiplier MuchDan Level1
+Multipliers:
+  Level1:
+    Multiplier: 1.5
+  Level2:
+    Multiplier: 2.0
+  Level3:
+    Multiplier: 3.0
+  Level4:
+    Multiplier: 4.0

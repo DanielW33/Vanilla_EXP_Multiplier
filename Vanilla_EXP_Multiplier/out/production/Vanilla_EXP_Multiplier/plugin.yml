@@ -1,0 +1,16 @@
+main: me.MuchDan.Vanilla_EXP_Multiplier.Vanilla_EXP_Multiplier
+name: Vanilla_EXP_Multiplier
+version: 0.0.1
+author: MuchDan
+api-version: 1.15
+softdepend: [PlaceholderAPI]
+
+commands:
+  SetMultiplier:
+    description: Give a player a experience booster!
+  RemoveMultiplier:
+    description: Remove a player's experience booster!
+  MultiplierReload:
+    description: Reload Multiplier config files
+  XPMultiplier:
+    description: See your current Multiplier
